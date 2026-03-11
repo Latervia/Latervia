@@ -1,0 +1,50 @@
+title: Latervia的博客
+description: 个人技术博客
+author: Latervia
+
+# 站点URL
+url: https://latervia.github.io
+baseurl: "" # 如果站点部署在子目录下，设置为 "/子目录"
+
+# 主题设置
+theme: minima
+
+# Markdown设置
+markdown: kramdown
+
+# 代码高亮设置
+highlighter: rouge
+
+# 文章URL结构
+permalink: /:title/
+
+# 分页设置
+paginate: 10
+paginate_path: "/page:num/"
+
+# GitHub Pages插件
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# 排除构建的文件和目录
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - LICENSE
+
+# 时间和语言
+timezone: "Asia/Shanghai"
+lang: "zh-CN"
+
+# 默认布局
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
