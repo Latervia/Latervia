@@ -7,7 +7,7 @@ url: https://latervia.github.io
 baseurl: "" # 如果站点部署在子目录下，设置为 "/子目录"
 
 # 主题设置
-theme: cayman # minima
+theme: minima
 
 # Markdown设置
 markdown: kramdown
